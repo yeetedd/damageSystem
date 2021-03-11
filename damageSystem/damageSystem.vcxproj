@@ -149,11 +149,15 @@
   <ItemGroup>
     <ClCompile Include="CharacterBase.cpp" />
     <ClCompile Include="damageSystem.cpp" />
+    <ClCompile Include="Mod.cpp" />
     <ClCompile Include="ModableProperty.cpp" />
+    <ClCompile Include="ModInventory.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CharacterBase.h" />
+    <ClInclude Include="Mod.h" />
     <ClInclude Include="ModableProperty.h" />
+    <ClInclude Include="ModInventory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

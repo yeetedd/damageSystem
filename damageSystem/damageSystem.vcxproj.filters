@@ -24,12 +24,24 @@
     <ClCompile Include="ModableProperty.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ModInventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CharacterBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ModableProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModInventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
