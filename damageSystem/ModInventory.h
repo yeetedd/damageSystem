@@ -1,14 +1,23 @@
 #pragma once
 #include "Mod.h"
+#include "CharacterBase.h"
 
 class ModInventory
 {
-private:
+	int sizeOfInventory;
+public:
 	Mod** equipedMods;
-	~ModInventory();
 
 public:
 	ModInventory(int size);
+	int GetSize() const
+	{
+		return sizeOfInventory;
+	}
+	~ModInventory();
+
+
+	void ApplyInventoryTo(CharacterBase& character);
 
 };
 
